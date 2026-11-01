@@ -261,6 +261,18 @@ kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line2);border-
 .search-mini,.search-mini input,#mainCol{min-width:0}.result .head{flex-wrap:wrap}.result .ttl,.result .snip,.ai-body,.badge{overflow-wrap:anywhere}.results{grid-template-columns:minmax(0,1fr) 300px}
 @media(max-width:960px){.results{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:640px){.topbar-in{gap:6px;padding:10px}.search-mini{padding-left:10px;gap:3px}.search-mini input{width:0}.topbar-in>.icon-btn{width:30px}.ai-panel-in{padding:18px 16px}.ai-head{flex-wrap:wrap}.source-options{grid-template-columns:1fr}.companion-message{margin-left:0;margin-right:0}.search-box .inner{gap:6px;padding-left:14px}.btn-go{padding-left:15px;padding-right:15px}}
+.destination-card{position:relative;overflow:hidden;margin-bottom:24px;padding:25px;border:1px solid color-mix(in srgb,var(--accent) 45%,transparent);border-radius:20px;background:linear-gradient(115deg,color-mix(in srgb,var(--accent) 8%,#090d1c),#090d1c 70%);box-shadow:0 12px 48px #0003}
+.destination-head{display:flex;align-items:center;gap:15px;margin-bottom:14px}.destination-monogram{display:grid;place-items:center;flex:none;width:52px;height:52px;border-radius:15px;background:var(--site-color,#173755);color:#fff;font-size:30px;font-weight:800}.destination-label{font-size:10px;letter-spacing:.16em;color:var(--accent);margin-bottom:4px}.destination-title{font-size:25px;font-weight:700;color:var(--text)}.destination-domain{font-size:12px;color:var(--dim);margin-top:5px;overflow-wrap:anywhere}.destination-description{font-size:14px;color:var(--dim);line-height:1.7}.destination-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.destination-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:10px 17px;border:1px solid var(--line2);border-radius:11px;color:var(--text);font-size:13px;font-weight:600}.destination-actions a:first-child{background:var(--grad);border:0;color:#04060e}.destination-actions a:hover{filter:brightness(1.15)}.destination-note{font-size:11px;color:var(--dim2);margin-top:14px;line-height:1.7}.developer-credit{margin-top:14px;font-size:12px;letter-spacing:.06em;color:var(--dim)}.results-footer{text-align:center;padding:0 20px 35px}.results-footer .developer-credit{border-top:1px solid var(--line);padding-top:22px;max-width:1240px;margin:0 auto}
+@media(max-width:640px){.destination-card{padding:19px}.destination-title{font-size:23px}.destination-actions{gap:8px}.destination-actions a{padding:10px 12px}}
+.section-kicker{font-size:10px;letter-spacing:.16em;color:var(--accent);line-height:1.9;margin-bottom:13px}.section-kicker span{display:block;letter-spacing:.03em;color:var(--dim)}
+.home-tools{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin-top:24px}.home-tools button{border:1px solid var(--line);background:var(--panel);color:var(--dim);border-radius:12px;padding:10px 15px;font:inherit;font-size:12px;cursor:pointer;transition:.2s}.home-tools button:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
+.quick-launch{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:22px}.quick-launch a{display:flex;align-items:center;gap:7px;font-size:11px;color:var(--dim);border:1px solid transparent;padding:6px 9px;border-radius:8px}.quick-launch a:hover{background:var(--panel);color:var(--text)}.quick-launch i{font-style:normal;width:23px;height:23px;border-radius:7px;display:grid;place-items:center;background:var(--panel2);color:var(--accent)}
+.feature-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:20px}.feature-heading h2{font-size:28px;letter-spacing:-.04em;font-weight:650}.feature-heading p{color:var(--dim);font-size:13px;line-height:1.7;margin-top:8px;max-width:620px}.feature-heading small{font-size:14px;color:var(--dim)}.feature-heading>button{flex:none;font-size:11px;padding:10px 12px}.compact-actions{margin-top:0;margin-bottom:22px}.compact-actions a{font-size:11px;padding:9px 12px}.save-result{border:1px solid var(--line);border-radius:9px;padding:7px 10px;color:var(--dim);background:var(--panel2);font:inherit;font-size:11px;cursor:pointer;white-space:nowrap}.save-result:hover{border-color:var(--accent);color:var(--accent)}.result-tools{display:flex;gap:8px;margin-top:12px}.result-tools>a{font-size:11px;padding:7px;color:var(--dim)}
+.map-shell{border:1px solid var(--line2);border-radius:18px;overflow:hidden;background:var(--panel)}.map-viewport{height:390px;position:relative;background:radial-gradient(ellipse at 40% 30%,#18333b,#07101e)}.map-viewport iframe{border:0;width:100%;height:100%;display:block}.map-placeholder{height:100%;display:grid;place-content:center;text-align:center;padding:30px;color:var(--dim);font-size:14px;line-height:1.8}.map-expand{position:absolute;right:12px;top:12px;background:#07101eed;border:1px solid #4d647d;border-radius:9px;padding:9px 12px;font-size:11px;color:#d6f2ff}.place-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line)}.place-card{padding:16px;background:#0a1223}.place-select{display:flex;text-align:left;gap:13px;width:100%;border:0;background:none;color:var(--text);font:inherit;cursor:pointer}.place-select>span{font-size:23px;color:var(--accent)}.place-select strong{font-size:14px}.place-select small{display:block;font-size:11px;color:var(--dim);margin-top:6px}.place-select.selected strong{color:var(--accent)}.place-actions{display:flex;align-items:center;justify-content:space-between;gap:9px;margin-top:15px}.place-actions>a{font-size:11px;color:var(--accent)}.map-attribution{font-size:11px;color:var(--dim);line-height:1.9;margin-top:18px}
+.app-grid,.saved-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.app-card,.saved-card{padding:20px;border:1px solid var(--line);border-radius:17px;background:var(--panel);min-width:0}.app-card-top{display:flex;gap:13px;align-items:center}.app-card-top img,.app-icon-fallback{width:55px;height:55px;object-fit:cover;border-radius:14px;flex:none}.app-card-top a{font-size:15px;font-weight:650;color:var(--text);overflow-wrap:anywhere}.app-card-top small{display:block;font-size:11px;color:var(--dim);margin-top:5px}.app-metadata{display:flex;gap:7px;flex-wrap:wrap;margin-top:17px}.app-metadata span{font-size:10px;border:1px solid var(--line);padding:4px 8px;border-radius:20px;color:var(--dim)}.app-metadata span:first-child{color:#fde68a}.app-card>p{font-size:12px;line-height:1.8;color:var(--dim);margin-top:13px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.saved-card>a{display:block;color:var(--text);font-size:16px;line-height:1.5;margin:10px 0 16px;overflow-wrap:anywhere}.saved-grid>.empty,.app-grid>.empty{grid-column:1/-1}
+.search-preference{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;font-size:11px;color:var(--dim)}.search-preference select{background:#0b1426;color:var(--text);border:1px solid var(--line);padding:8px 11px;border-radius:9px;font:inherit;outline:none}.coverage-fallback{border:1px solid #fbbf2440;background:#fbbf2408;padding:15px;border-radius:12px;margin-top:13px}.coverage-fallback .destination-actions{margin-bottom:0;margin-top:10px}.shortcut-hint{font-size:10px;line-height:1.8;color:var(--dim2);margin-top:13px}
+@media(max-width:640px){.map-viewport{height:310px}.place-list,.app-grid,.saved-grid{grid-template-columns:1fr}.feature-heading h2{font-size:24px}.feature-heading{gap:9px}.home-tools{gap:6px}.home-tools button{padding:9px 12px}.quick-launch{gap:4px}.app-card{padding:17px}.search-preference{align-items:flex-start}.compact-actions a{padding:9px}.destination-actions .save-result{min-height:40px}}
+
 </style>
 </head>
 <body>
@@ -329,7 +341,10 @@ kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line2);border-
       <button class="btn-ghost" id="settingsBtnHome">⚙ Settings</button>
     </div>
 
-    <div class="search-network">OPEN DATA + FEDERATED WEB <span>Research · Books · Code · Archives · News</span></div>
+    <div class="home-tools"><button data-mode="all">↗ Web search</button><button data-mode="maps">⌖ Maps</button><button data-mode="apps">◇ Discover apps</button><button data-mode="saved">☆ Saved</button></div>
+    <div class="quick-launch" aria-label="Quick launch"><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i>f</i>Facebook</a><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer"><i>M</i>Gmail</a><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><i>▶</i>YouTube</a><a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i>W</i>WhatsApp</a></div>
+    <div class="shortcut-hint">Quick commands: !g web search · !yt videos · !maps places · !apps app discovery</div>
+    <div class="search-network">YOUR NEXT DISCOVERY STARTS HERE <span>Websites · Apps · Maps · Research · News</span></div>
     <div class="chips" id="historyChips" style="display:none"></div>
 
     <div class="trending-block">
@@ -340,9 +355,8 @@ kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line2);border-
     </div>
 
     <footer>
-      Press <kbd>/</kbd> to search &nbsp;·&nbsp; AI answers by <a href="https://arena.ai" target="_blank" rel="noopener">Arena AI</a> &nbsp;·&nbsp; Live data: Wikipedia · DDG · HN · Commons
-      <br>
-      Developed by Dingku Singh Oinam
+      Press <kbd>/</kbd> to search &nbsp;·&nbsp; Federated web &amp; public-data search
+      <div class="developer-credit">Developed by Dingku Singh Oinam</div>
     </footer>
   </section>
 
@@ -367,15 +381,19 @@ kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line2);border-
         <button class="tab" data-tab="ai">AI</button>
         <button class="tab" data-tab="images">Images</button>
         <button class="tab" data-tab="news">News</button>
+        <button class="tab" data-tab="maps">Maps</button>
+        <button class="tab" data-tab="apps">Apps</button>
+        <button class="tab" data-tab="saved">Saved <span aria-hidden="true">☆</span></button>
       </nav>
     </header>
 
     <div class="results">
       <main id="mainCol">
         <div class="stats-line" id="statsLine"></div>
+        <div id="destinationSlot"></div>
         <div id="aiSlot"></div>
-        <div id="knowSlot"></div>
         <div id="resultsSlot"></div>
+        <div id="knowSlot"></div>
       </main>
       <aside class="side" id="sideCol">
         <div class="panel">
@@ -392,11 +410,12 @@ kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line2);border-
             <kbd>/</kbd> focus search<br>
             <kbd>↑</kbd><kbd>↓</kbd> navigate suggestions<br>
             <kbd>esc</kbd> dismiss panels<br>
-            <kbd>1</kbd>–<kbd>4</kbd> switch tabs
+            <kbd>1</kbd>–<kbd>7</kbd> switch tabs
           </div>
         </div>
       </aside>
     </div>
+    <footer class="results-footer"><div class="developer-credit">Developed by Dingku Singh Oinam</div></footer>
   </section>
 </div>
 
@@ -478,6 +497,7 @@ const enc = encodeURIComponent;
 const DEFAULT_SEARCH_API = '';
 const DEFAULTS = {
   searchApi: DEFAULT_SEARCH_API || ((location.hostname === 'localhost' || location.hostname === '127.0.0.1' || location.hostname.endsWith('.e2b.app')) ? location.origin : ''),
+  preference: 'web',
   sources: ['searxng','wikipedia','duckduckgo','crossref','europepmc','arxiv','openlibrary','archive','stackoverflow','github','hackernews','gdelt'],
   endpoint: '',
   key: '', model: 'arena_smart.aria',
@@ -502,7 +522,7 @@ const Store = {
     h.unshift({ q, t: Date.now() });
     localStorage.setItem('quasar.hist', JSON.stringify(h.slice(0, 12)));
   },
-  wipe() { localStorage.removeItem('quasar.cfg'); localStorage.removeItem('quasar.hist'); this.load(); }
+  wipe() { localStorage.removeItem('quasar.cfg'); localStorage.removeItem('quasar.hist'); localStorage.removeItem('quasar.saved'); this.load(); }
 };
 Store.load();
 if(Store.cfg.endpoint==='https://api.arena.ai/v1/chat/completions')Store.cfg.endpoint='';
@@ -700,20 +720,24 @@ function federationStatus(d){
  return `<div class="federation-status"><strong>${connected?'Federated web + open data':'Open-data federation'}</strong> · ${n}/${d.providers.length} connectors responded · ${d.results.length} unique results · ${d.elapsed_ms} ms
  ${!connected?'<div>Broader-web connector is '+(web?.status==='unavailable'?'unavailable':'not active')+'. These are public-dataset results, not a full web index. Configure the included backend with SearXNG to enable broader-web search.</div>':''}
  ${d.backendError?'<div>'+esc(d.backendError)+'</div>':''}
+ ${!connected?'<div class="coverage-fallback"><strong>Need a website that is missing here?</strong><div>A full web-search connection is not active. Continue this query on a web engine rather than relying only on encyclopedia or research results.</div>'+externalSearchLinks(d.query)+'</div>':''}
  <details><summary>Provider health &amp; coverage</summary><div class="provider-grid">${d.providers.map(x=>`<span class="provider-pill ${x.status==='ok'?'ok':'warn'}">${esc(x.name)}: ${esc(x.status.replace(/_/g,' '))}${x.status==='ok'?' ('+x.count+')':''}</span>`).join('')}</div><p style="margin-top:8px">Open/public APIs are not all open-source software or openly licensed content. Upstream limits and terms apply. Results are deduplicated and combined using reciprocal-rank fusion, not a private web index.</p></details></div>`;
 }
-function renderFederated(d,initial='all'){
+function renderFederated(d,initial=null){
  const slot=$('#resultsSlot');
- slot.innerHTML=federationStatus(d)+'<div class="source-filters" id="sourceFilters"></div><div id="federatedRows"></div>';
+ slot.innerHTML=federationStatus(d)+'<div class="search-preference"><span>Choose how QUASAR ranks your discoveries</span><select id="searchPreference" aria-label="Search preference"><option value="web">Websites first</option><option value="all">All sources</option><option value="research">Research first</option></select></div><div class="source-filters" id="sourceFilters"></div><div id="federatedRows"></div>';
  const filters=$('#sourceFilters'),rows=$('#federatedRows');
  const match=(x,c)=>c==='all'||x.category===c||(x.sources||[x.source]).some(id=>CONNECTORS[id]?.[1]===c);
  const labels={all:'All sources',web:'Web',knowledge:'Knowledge',research:'Research',books:'Books',code:'Code',news:'News',archive:'Archives'};
  const draw=category=>{
    filters.innerHTML=Object.entries(labels).map(([id,name])=>`<button data-category="${id}" class="${category===id?'on':''}" aria-pressed="${category===id}">${name} · ${d.results.filter(x=>match(x,id)).length}</button>`).join('');
    const selected=d.results.filter(x=>match(x,category));
-   rows.innerHTML=selected.length?selected.map(x=>`<div class="result fade-in"><div class="head"><div class="favi">${esc(domain(x.url)[0]?.toUpperCase()||'?')}</div><div class="dom">${esc(domain(x.url))}</div><span class="badge">${esc((x.sources||[x.source]).map(id=>CONNECTORS[id]?.[0]||id).join(' + '))}</span></div><a class="ttl" href="${esc(safeURL(x.url))}" target="_blank" rel="noopener noreferrer">${esc(x.title)}</a><div class="snip">${esc(x.snippet)}</div></div>`).join(''):emptyState('No results in this category','Try another category or query. Provider failures and missing connections are listed above.');
+   if(category==='all'&&Store.cfg.preference==='web')selected.sort((a,b)=>Number(match(b,'web'))-Number(match(a,'web')));
+   rows.innerHTML=selected.length?selected.map(x=>`<div class="result fade-in"><div class="head"><div class="favi">${esc(domain(x.url)[0]?.toUpperCase()||'?')}</div><div class="dom">${esc(domain(x.url))}</div><span class="badge">${esc((x.sources||[x.source]).map(id=>CONNECTORS[id]?.[0]||id).join(' + '))}</span></div><a class="ttl" href="${esc(safeURL(x.url))}" target="_blank" rel="noopener noreferrer">${esc(x.title)}</a><div class="snip">${esc(x.snippet)}</div><div class="result-tools">${saveButton(x.title,x.url)}<a href="https://www.google.com/search?q=${enc('site:'+domain(x.url)+' login signup')}" target="_blank" rel="noopener noreferrer">Find sign-in page ↗</a></div></div>`).join(''):emptyState('No results in this category','Try another category or query. Provider failures and missing connections are listed above.');
  };
- filters.onclick=e=>{const b=e.target.closest('[data-category]');if(b)draw(b.dataset.category);};draw(initial);
+ filters.onclick=e=>{const b=e.target.closest('[data-category]');if(b)draw(b.dataset.category);};
+ const preference=$('#searchPreference');preference.value=Store.cfg.preference||'web';preference.onchange=()=>{Store.cfg.preference=preference.value;Store.save();draw(preference.value==='research'?'research':'all');};
+ draw(initial||(Store.cfg.preference==='research'?'research':'all'));
 }
 
 async function getImages(q) {
@@ -799,11 +823,13 @@ let runToken = 0, currentTab = 'all', currentQuery = '', aiAbort = null;
 const aiSession = { q: '', messages: [] };
 
 function route() {
-  const q = new URLSearchParams(location.search).get('q');
+  const params=new URLSearchParams(location.search);
+  const tab=params.get('tab')||'all';setActiveTab(['all','ai','images','news','maps','apps','saved'].includes(tab)?tab:'all');
+  const q = params.get('q');
   if (q && q.trim()) showResults(q.trim()); else showHome();
 }
 function navigate(q) {
-  history.pushState(null, '', '?q=' + enc(q));
+  history.pushState(null, '', '?q='+enc(q)+(currentTab!=='all'?'&tab='+enc(currentTab):''));
   showResults(q);
 }
 addEventListener('popstate', route);
@@ -835,34 +861,71 @@ $('#tabs').addEventListener('click', e => {
   const b = e.target.closest('.tab'); if (!b) return;
   $$('#tabs .tab').forEach(t => t.classList.toggle('on', t === b));
   currentTab = b.dataset.tab;
+  history.replaceState(null,'','?q='+enc(currentQuery)+(currentTab!=='all'?'&tab='+enc(currentTab):''));
   if (currentQuery) renderTab(currentQuery, currentTab);
 });
 function setTabVisible(tab) {
-  const ai = tab === 'all' || tab === 'ai';
+  const nav=destinationFor(currentQuery)||resolvedDestinationQuery===currentQuery;
+  const ai = tab === 'ai' || (tab === 'all' && !nav && !!Store.cfg.key && !!Store.cfg.endpoint);
+  $('#destinationSlot').style.display=tab==='all'?'':'none';
   $('#aiSlot').style.display = ai ? '' : 'none';
-  $('#knowSlot').style.display = tab === 'all' ? '' : 'none';
+  $('#knowSlot').style.display = tab === 'all' && !nav ? '' : 'none';
+}
+
+/* ---------- navigational intent: destinations, not encyclopedia entries ---------- */
+// Curated official domains. This is not a claim of live discovery or a universal directory.
+const DESTINATIONS = [
+ {name:'Facebook',aliases:['facebook','fb','facebook.com','fb.com'],url:'https://www.facebook.com/',login:'https://www.facebook.com/login/',signup:'https://www.facebook.com/r.php',color:'#0866ff',glyph:'f',description:'Connect with friends and family. Open Facebook directly, log in, or create an account on the official website.'},
+ {name:'Instagram',aliases:['instagram','insta','ig','instagram.com'],url:'https://www.instagram.com/',login:'https://www.instagram.com/accounts/login/',signup:'https://www.instagram.com/accounts/emailsignup/',color:'#ad287f',glyph:'◎',description:'Photos, reels and messages on the official Instagram website.'},
+ {name:'YouTube',aliases:['youtube','yt','youtube.com'],url:'https://www.youtube.com/',color:'#e82727',glyph:'▶',description:'Watch videos and discover channels on YouTube.'},
+ {name:'Gmail',aliases:['gmail','google mail','gmail.com'],url:'https://mail.google.com/',login:'https://accounts.google.com/ServiceLogin?service=mail',signup:'https://accounts.google.com/signup',color:'#bd3932',glyph:'M',description:'Open your Gmail inbox or sign in with your Google account.'},
+ {name:'WhatsApp',aliases:['whatsapp','whatsapp web','whatsapp.com','web.whatsapp.com'],url:'https://web.whatsapp.com/',color:'#137951',glyph:'W',description:'Open WhatsApp Web and follow the official device-linking instructions.'},
+ {name:'X',aliases:['x','twitter','x.com','twitter.com'],url:'https://x.com/',login:'https://x.com/i/flow/login',signup:'https://x.com/i/flow/signup',color:'#28323d',glyph:'𝕏',description:'Open X, formerly Twitter, to read and share posts.'},
+ {name:'Reddit',aliases:['reddit','reddit.com'],url:'https://www.reddit.com/',login:'https://www.reddit.com/login/',color:'#db4408',glyph:'r',description:'Explore communities and conversations on Reddit.'},
+ {name:'GitHub',aliases:['github','github.com'],url:'https://github.com/',login:'https://github.com/login',signup:'https://github.com/signup',color:'#34425d',glyph:'G',description:'Find repositories, collaborate on code, or access your GitHub account.'},
+ {name:'LinkedIn',aliases:['linkedin','linkedin.com'],url:'https://www.linkedin.com/',login:'https://www.linkedin.com/login',signup:'https://www.linkedin.com/signup',color:'#0a66c2',glyph:'in',description:'Open LinkedIn for professional connections and jobs.'},
+ {name:'Amazon India',aliases:['amazon','amazon india','amazon.in'],url:'https://www.amazon.in/',color:'#864b0a',glyph:'a',description:'Open the Amazon India shopping website.'},
+ {name:'Amazon',aliases:['amazon.com'],url:'https://www.amazon.com/',color:'#864b0a',glyph:'a',description:'Open the Amazon.com shopping website.'},
+ {name:'Google',aliases:['google','google.com'],url:'https://www.google.com/',color:'#285fbd',glyph:'G',description:'Open Google Search.'},
+ {name:'ChatGPT',aliases:['chatgpt','chat gpt','chatgpt.com'],url:'https://chatgpt.com/',color:'#146b58',glyph:'✳',description:'Open the official ChatGPT website.'},
+ {name:'Netflix',aliases:['netflix','netflix.com'],url:'https://www.netflix.com/',login:'https://www.netflix.com/login',color:'#b50c18',glyph:'N',description:'Open Netflix to browse or sign in to your account.'},
+ {name:'Spotify',aliases:['spotify','spotify.com'],url:'https://open.spotify.com/',login:'https://accounts.spotify.com/login',signup:'https://www.spotify.com/signup/',color:'#11763a',glyph:'S',description:'Listen to music and podcasts on Spotify.'},
+ {name:'Wikipedia',aliases:['wikipedia','wikipedia.org'],url:'https://www.wikipedia.org/',color:'#475569',glyph:'W',description:'Open Wikipedia to choose a language and explore the encyclopedia.'},
+ {name:'Microsoft',aliases:['microsoft','microsoft.com'],url:'https://www.microsoft.com/',color:'#345e8d',glyph:'⊞',description:'Open the official Microsoft website.'},
+ {name:'Yahoo',aliases:['yahoo','yahoo.com'],url:'https://www.yahoo.com/',color:'#5a1cb5',glyph:'Y',description:'Open Yahoo for news, search and links to mail.'},
+ {name:'DuckDuckGo',aliases:['duckduckgo','ddg','duckduckgo.com'],url:'https://duckduckgo.com/',color:'#ae4c2b',glyph:'D',description:'Open DuckDuckGo Search.'}
+];
+function destinationFor(query){
+ const raw=String(query||'').trim().toLowerCase();
+ const normalized=raw.replace(/https?:\/\//g,'').replace(/www\./g,'').replace(/\/+/g,' ').replace(/[^a-z0-9.]+/g,' ').replace(/\b(log\s*in|sign\s*up|signup|login|open|visit|go\s+to|official|website|site|create\s+(an?\s+)?account)\b/g,' ').replace(/\s+/g,' ').trim();
+ for(const site of DESTINATIONS){
+   if(site.aliases.includes(normalized))return site;
+   // Handle inputs such as “fb)facebook” without treating “facebook stock” as navigation.
+   const words=normalized.split(' ');if(words.length>1&&words.every(w=>site.aliases.includes(w)))return site;
+ }
+ // An explicitly entered domain/URL is a destination; do not invent or endorse unknown brand domains.
+ if(/^(?:https?:\/\/)?(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,}(?::\d+)?(?:[/?#][^\s]*)?$/i.test(raw)){
+   try{const u=new URL(/^https?:\/\//i.test(raw)?raw:'https://'+raw);if(!['http:','https:'].includes(u.protocol))return null;
+     return{name:u.hostname,url:u.href,aliases:[],glyph:'↗',entered:true,description:'Open the web address you entered. Check the domain before entering any account details.'};
+   }catch{}
+ }
+ return null;
+}
+function renderDestination(q){
+ const site=destinationFor(q),slot=$('#destinationSlot');
+ if(!site){slot.innerHTML='';return;}
+ const link=(url,label)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`;
+ slot.innerHTML=`<article class="destination-card" style="--site-color:${site.color||'#173755'}"><div class="destination-head"><div class="destination-monogram" aria-hidden="true">${esc(site.glyph)}</div><div><div class="destination-label">${site.entered?'ENTERED WEB ADDRESS':'OFFICIAL WEBSITE · QUICK LINK'}</div><a class="destination-title" href="${esc(site.url)}" target="_blank" rel="noopener noreferrer">${esc(site.name)} ↗</a><div class="destination-domain">${esc(new URL(site.url).hostname)}</div></div></div><p class="destination-description">${esc(site.description)}</p><div class="destination-actions">${link(site.url,'Open '+site.name+' ↗')}${site.login?link(site.login,'Log in'):''}${site.signup?link(site.signup,'Create account'):''}${saveButton(site.name,site.url)}<button class="save-result" data-find-app="${esc(site.name)}">Find app</button></div><p class="destination-note">Opens on the destination website in a new tab. QUASAR never asks for your ${site.entered?'website':esc(site.name)} password.${site.entered?'':' This is a built-in quick link, not a live search result.'}</p></article>`;
 }
 
 /* ---------- main search orchestration ---------- */
 async function startSearch(q, tab) {
-  const tk = ++runToken;
-  const t0 = performance.now();
-  if (aiAbort) aiAbort.abort();
-  aiAbort = new AbortController();
-
-  setTabVisible(tab);
-  $('#statsLine').innerHTML = 'Scanning the universe for <b>' + esc(q) + '</b>…';
-  $('#resultsSlot').innerHTML = skelResults();
-  $('#knowSlot').innerHTML = '';
-  resetAiPanel(q, tk);
-
-  renderTab(q, tab, tk);
-
-  getFederated(q).then(d=>{
-    if(tk!==runToken)return;
-    $('#statsLine').innerHTML=`Results for <b>${esc(q)}</b> · ${d.results.length} results · ${d.providers.filter(x=>x.status==='ok').length} responding connectors`;
-  });
+ const tk=++runToken;if(aiAbort)aiAbort.abort();aiAbort=new AbortController();resolvedDestinationQuery='';
+ renderDestination(q);setTabVisible(tab);$('#aiSlot').innerHTML='';$('#knowSlot').innerHTML='';
+ $('#statsLine').textContent=tab==='saved'?'Your private collection':'Searching for '+q+'…';
+ $('#resultsSlot').innerHTML=skelResults();renderTab(q,tab,tk);
 }
+
 function skelResults() {
   return Array.from({ length: 5 }, () => `<div class="result"><div class="head"><div class="favi skel" style="background:rgba(125,160,255,.1)"></div><div class="dom skel" style="width:140px;height:12px;border-radius:6px">&nbsp;</div></div><div class="ttl skel" style="width:60%;height:17px;border-radius:6px">&nbsp;</div><div class="snip skel" style="width:92%;height:13px;border-radius:6px;margin-top:8px">&nbsp;</div></div>`).join('');
 }
@@ -872,11 +935,20 @@ async function renderTab(q, tab, tk = runToken) {
   setTabVisible(tab);
   try {
     if (tab === 'all') {
+      if(!destinationFor(q)&&!$('#aiSlot').innerHTML)resetAiPanel(q,tk);
+      if(!destinationFor(q)&&resolvedDestinationQuery!==q)discoverDestination(q,tk);
       $('#resultsSlot').innerHTML=skelResults();
       const d=await getFederated(q);
       if(tk!==runToken||currentTab!==tab)return;
-      if((Store.cfg.sources||DEFAULTS.sources).includes('wikipedia'))renderKnowledge(q,null,tk);else $('#knowSlot').innerHTML='';
+      if(!destinationFor(q)&&(Store.cfg.sources||DEFAULTS.sources).includes('wikipedia'))renderKnowledge(q,null,tk);else $('#knowSlot').innerHTML='';
       renderFederated(d);
+      $('#statsLine').innerHTML=`Results for <b>${esc(q)}</b> · ${d.results.length} results · ${d.providers.filter(x=>x.status==='ok').length} responding connectors`;
+    } else if (tab === 'maps') {
+      await renderMaps(q,tk);
+    } else if (tab === 'apps') {
+      await renderApps(q,tk);
+    } else if (tab === 'saved') {
+      renderSaved();
     } else if (tab === 'images') {
       $('#resultsSlot').innerHTML = '<div class="img-grid" id="imgGrid"></div>';
       const imgs = await getImages(q);
@@ -890,6 +962,7 @@ async function renderTab(q, tab, tk = runToken) {
       if(tk!==runToken||currentTab!==tab)return;
       renderFederated(d,'news');
     } else if (tab === 'ai') {
+      if(!$('#aiSlot').innerHTML)resetAiPanel(q,tk);
       $('#resultsSlot').innerHTML = '';
       $('#knowSlot').innerHTML = '';
     }
@@ -1192,6 +1265,8 @@ function submit(input) {
   const q = input.value.trim();
   if (!q) { input.closest('.inner, .search-mini')?.classList.add('shake'); setTimeout(() => input.closest('.inner, .search-mini')?.classList.remove('shake'), 450); return; }
   Suggest.close();
+  const bang=q.match(/^!(g|yt|gh|maps|apps)\s+(.+)$/i);
+  if(bang){const term=bang[2].trim(),command=bang[1].toLowerCase();if(command==='maps'||command==='apps'){modeSearch(command,term);return;}const urls={g:'https://www.google.com/search?q=',yt:'https://www.youtube.com/results?search_query=',gh:'https://github.com/search?q='};window.open(urls[command]+enc(term),'_blank','noopener,noreferrer');return;}
   navigate(q);
 }
 const homeInput = $('#homeInput'), topInput = $('#topInput');
@@ -1224,13 +1299,112 @@ addEventListener('keydown', e => {
   }
   if (e.key === 'Escape') closeSettings();
   if ($('#resultsView').style.display !== 'none' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) {
-    const tabs = ['all', 'ai', 'images', 'news'];
-    if (['1', '2', '3', '4'].includes(e.key)) {
+    const tabs = ['all', 'ai', 'images', 'news', 'maps', 'apps', 'saved'];
+    if (['1', '2', '3', '4', '5', '6', '7'].includes(e.key)) {
       currentTab = tabs[+e.key - 1];
+      history.replaceState(null,'','?q='+enc(currentQuery)+(currentTab!=='all'?'&tab='+enc(currentTab):''));
       $$('#tabs .tab').forEach(t => t.classList.toggle('on', t.dataset.tab === currentTab));
       if (currentQuery) renderTab(currentQuery, currentTab);
     }
   }
+});
+
+/* ---------- discovery, maps, apps and a private saved collection ---------- */
+const serviceCache=new Map();
+let resolvedDestinationQuery='';
+function setActiveTab(tab){
+ currentTab=tab;$$('#tabs .tab').forEach(b=>b.classList.toggle('on',b.dataset.tab===tab));
+}
+function modeSearch(tab,q){setActiveTab(tab);navigate(q||currentQuery||'Explore');}
+function externalSearchLinks(q){return `<div class="destination-actions compact-actions"><a href="https://duckduckgo.com/?q=${enc(q)}" target="_blank" rel="noopener noreferrer">Search DuckDuckGo ↗</a><a href="https://www.google.com/search?q=${enc(q)}" target="_blank" rel="noopener noreferrer">Search Google ↗</a><a href="https://www.bing.com/search?q=${enc(q)}" target="_blank" rel="noopener noreferrer">Search Bing ↗</a></div>`;}
+function appStoreLinks(q){return `<div class="destination-actions compact-actions"><a href="https://play.google.com/store/search?q=${enc(q)}&c=apps" target="_blank" rel="noopener noreferrer">Google Play ↗</a><a href="https://www.apple.com/us/search/${enc(q)}?src=globalnav" target="_blank" rel="noopener noreferrer">Search Apple ↗</a><a href="https://search.f-droid.org/?q=${enc(q)}&lang=en" target="_blank" rel="noopener noreferrer">F-Droid ↗</a></div>`;}
+async function discoveryAPI(kind,q){
+ const key=kind+':'+q.toLowerCase();const old=serviceCache.get(key);if(old&&Date.now()-old.t<600000)return old.promise;
+ const promise=(async()=>{
+  const api=(Store.cfg.searchApi||'').replace(/\/$/,'');
+  if(api){try{return await fetchJSON(api+'/api/'+kind+'?q='+enc(q),{timeout:19000});}catch{}}
+  if(kind==='places'){
+   const d=await fetchJSON('https://geocoding-api.open-meteo.com/v1/search?name='+enc(q)+'&count=6&language=en&format=json');
+   return{places:(d.results||[]).map(x=>({name:x.name,latitude:x.latitude,longitude:x.longitude,region:x.admin1||'',country:x.country||'',timezone:x.timezone||'',population:x.population})),source:'Open-Meteo / GeoNames'};
+  }
+  if(kind==='apps'){
+   const d=await fetchJSON('https://itunes.apple.com/search?term='+enc(q)+'&entity=software&limit=12&country=in');
+   return{apps:(d.results||[]).map(x=>({name:x.trackName,url:x.trackViewUrl,icon:x.artworkUrl100,publisher:x.artistName,description:stripHTML(x.description).slice(0,300),rating:x.averageUserRating,price:x.formattedPrice,genre:x.primaryGenreName})),source:'Apple App Store'};
+  }
+  const normalize=v=>String(v).toLowerCase().replace(/\b(log\s*in|sign\s*up|login|signup|official|website|site|download|app|open|visit)\b/g,' ').replace(/[^\p{L}\p{N} .-]/gu,' ').replace(/\s+/g,' ').trim();
+  const query=normalize(q);if(!query||query.split(' ').length>6)return{destinations:[]};
+  const base='https://www.wikidata.org/w/api.php?format=json&origin=*';
+  const found=await fetchJSON(base+'&action=wbsearchentities&search='+enc(query)+'&language=en&type=item&limit=8');
+  const candidates=(found.search||[]).filter(x=>/^Q\d+$/.test(x.id)&&[x.label,x.match?.text].some(v=>normalize(v||'')===query));
+  if(!candidates.length)return{destinations:[]};
+  const entities=await fetchJSON(base+'&action=wbgetentities&props=claims&ids='+enc(candidates.map(x=>x.id).join('|')));
+  return{destinations:candidates.flatMap(x=>{
+    const claims=entities.entities?.[x.id]?.claims?.P856||[];
+    const claim=claims.filter(c=>c.rank!=='deprecated').sort((a,b)=>(b.rank==='preferred')-(a.rank==='preferred')).find(c=>typeof c.mainsnak?.datavalue?.value==='string'&&safeURL(c.mainsnak.datavalue.value));
+    return claim?[{name:x.label,url:safeURL(claim.mainsnak.datavalue.value),description:x.description||'',record:'https://www.wikidata.org/wiki/'+x.id}]:[];
+  }).slice(0,4),source:'Wikidata'};
+ })();
+ serviceCache.set(key,{t:Date.now(),promise});while(serviceCache.size>40)serviceCache.delete(serviceCache.keys().next().value);return promise;
+}
+async function discoverDestination(q,tk){
+ if(destinationFor(q)||q.split(/\s+/).length>6)return;
+ try{
+  const d=await discoveryAPI('destination',q);if(tk!==runToken||currentQuery!==q)return;
+  const sites=(d.destinations||[]).filter(x=>safeURL(x.url));if(!sites.length)return;
+  resolvedDestinationQuery=q;
+  $('#destinationSlot').innerHTML=`<div class="section-kicker">WEBSITES MATCHING YOUR SEARCH <span>Live directory records, beyond built-in shortcuts</span></div>`+sites.map(x=>`<article class="destination-card"><div class="destination-label">WEBSITE RECORD · WIKIDATA</div><div class="destination-head"><div class="destination-monogram">↗</div><div><a class="destination-title" href="${esc(safeURL(x.url))}" target="_blank" rel="noopener noreferrer">${esc(x.name)}</a><div class="destination-domain">${esc(domain(x.url))}</div></div></div><p class="destination-description">${esc(x.description)}</p><div class="destination-actions"><a href="${esc(safeURL(x.url))}" target="_blank" rel="noopener noreferrer">Open website ↗</a><a href="https://www.google.com/search?q=${enc('site:'+domain(x.url)+' login signup')}" target="_blank" rel="noopener noreferrer">Find login / signup ↗</a><button class="save-result" data-save-url="${esc(x.url)}" data-save-title="${esc(x.name)}">${isSaved(x.url)?'★ Saved':'☆ Save'}</button><button class="save-result" data-find-app="${esc(x.name)}">Find app</button></div><div class="destination-note">Website listed in a <a href="${esc(safeURL(x.record))}" target="_blank" rel="noopener noreferrer">Wikidata record</a>; not independently verified by QUASAR. Check the domain before signing in. Login and signup paths are not guessed.</div></article>`).join('');
+  setTabVisible(currentTab);
+ }catch{/* Search results and external engine links remain available. */}
+}
+const Bookmarks={
+ read(){try{const d=JSON.parse(localStorage.getItem('quasar.saved')||'[]');return Array.isArray(d)?d.filter(x=>x&&safeURL(x.url)&&typeof x.title==='string').slice(0,100):[];}catch{return[];}},
+ write(items){try{localStorage.setItem('quasar.saved',JSON.stringify(items.slice(0,100)));}catch{toast('Browser storage is full or unavailable.');}},
+ toggle(title,url){url=safeURL(url);if(!url)return;const items=this.read();if(items.some(x=>x.url===url)){this.write(items.filter(x=>x.url!==url));toast('Removed from saved');}else{this.write([{title:String(title).slice(0,250),url,t:Date.now()},...items]);toast('Saved on this device');}}
+};
+function isSaved(url){return Bookmarks.read().some(x=>x.url===url);}
+function saveButton(title,url){return `<button class="save-result" data-save-url="${esc(url)}" data-save-title="${esc(title)}" aria-label="Save ${esc(title)}">${isSaved(url)?'★ Saved':'☆ Save'}</button>`;}
+function renderSaved(){
+ const items=Bookmarks.read();
+ $('#resultsSlot').innerHTML=`<div class="feature-heading"><div><div class="destination-label">YOUR PRIVATE COLLECTION</div><h2>Saved discoveries <small>${items.length}/100</small></h2><p>Websites, places and apps, stored only on this device.</p></div><button class="btn-ghost" id="exportSaved">Export JSON</button></div><div class="saved-grid">${items.length?items.map(x=>`<article class="saved-card"><div class="destination-domain">${esc(domain(x.url))}</div><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.title)}</a>${saveButton(x.title,x.url)}</article>`).join(''):emptyState('Your next discovery belongs here','Tap ☆ Save on a result, app or map location to keep it.')}</div>`;
+ $('#exportSaved').onclick=()=>{const blob=new Blob([JSON.stringify(items,null,2)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='quasar-saved.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};
+ $('#statsLine').textContent='Saved locally · no account needed';
+}
+function mapsLinks(q){return `<div class="destination-actions compact-actions"><a href="https://www.openstreetmap.org/search?query=${enc(q)}" target="_blank" rel="noopener noreferrer">Search OpenStreetMap ↗</a><a href="https://www.google.com/maps/search/?api=1&query=${enc(q)}" target="_blank" rel="noopener noreferrer">Google Maps ↗</a><a href="https://www.google.com/maps/dir/?api=1&destination=${enc(q)}" target="_blank" rel="noopener noreferrer">Get directions ↗</a></div>`;}
+async function renderMaps(q,tk){
+ const slot=$('#resultsSlot');
+ slot.innerHTML=`<div class="feature-heading"><div><div class="destination-label">EXPLORE YOUR WORLD</div><h2>Maps &amp; places</h2><p>Search a city or postal code above. For businesses and exact addresses, use the map-provider links.</p></div><button class="btn-ghost" id="locateMe">◎ My location</button></div>${mapsLinks(q)}<div class="map-shell"><div id="mapViewport" class="map-viewport"><div class="map-placeholder">Finding locations…</div></div><div id="placeList" class="place-list"></div></div><div class="map-attribution">Map © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a> · City lookup: <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a> / <a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames</a>. Map tiles load from OpenStreetMap. Your location is requested only if you click My location. Free city lookup is for non-commercial use under the provider’s limits; <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener noreferrer">terms</a> apply.</div>`;
+ const viewport=$('#mapViewport'),list=$('#placeList');let places=[];
+ function focus(place,i){
+  const lat=Number(place.latitude),lon=Number(place.longitude);if(!Number.isFinite(lat)||!Number.isFinite(lon)||Math.abs(lat)>90||Math.abs(lon)>180)return;
+  const box=[Math.max(-180,lon-.06),Math.max(-90,lat-.045),Math.min(180,lon+.06),Math.min(90,lat+.045)].join(',');
+  viewport.innerHTML=`<iframe title="Map of ${esc(place.name)}" loading="lazy" referrerpolicy="no-referrer" src="https://www.openstreetmap.org/export/embed.html?bbox=${enc(box)}&layer=mapnik&marker=${lat}%2C${lon}" allowfullscreen></iframe><a class="map-expand" href="https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}#map=14/${lat}/${lon}" target="_blank" rel="noopener noreferrer">Expand map ↗</a>`;
+  list.querySelectorAll('[data-place]').forEach(b=>b.classList.toggle('selected',Number(b.dataset.place)===i));
+ }
+ function drawPlaces(){list.innerHTML=places.map((x,i)=>{const location=[x.region,x.country].filter(Boolean).join(', '),url=`https://www.openstreetmap.org/?mlat=${x.latitude}&mlon=${x.longitude}#map=14/${x.latitude}/${x.longitude}`;return `<article class="place-card"><button class="place-select" data-place="${i}"><span>⌖</span><div><strong>${esc(x.name)}</strong><small>${esc(location)}</small><small>${Number(x.latitude).toFixed(4)}, ${Number(x.longitude).toFixed(4)}</small></div></button><div class="place-actions"><a href="https://www.google.com/maps/dir/?api=1&destination=${enc(x.latitude+','+x.longitude)}" target="_blank" rel="noopener noreferrer">Directions ↗</a>${saveButton(x.name+' · '+location,url)}</div></article>`;}).join('');list.querySelectorAll('[data-place]').forEach(b=>b.onclick=()=>focus(places[+b.dataset.place],+b.dataset.place));}
+ $('#locateMe').onclick=()=>{
+  if(!navigator.geolocation){toast('Location is not supported. Search a place instead.');return;}
+  toast('Your browser will ask for location permission. Coordinates load in the OSM map.');
+  navigator.geolocation.getCurrentPosition(pos=>{if(tk!==runToken||currentTab!=='maps')return;places=[{name:'Your location',latitude:pos.coords.latitude,longitude:pos.coords.longitude,region:'',country:''},...places];drawPlaces();focus(places[0],0);},()=>toast('Location unavailable or permission denied. You can still search manually.'),{enableHighAccuracy:false,timeout:10000,maximumAge:60000});
+ };
+ try{
+  const d=await discoveryAPI('places',q);if(tk!==runToken||currentTab!=='maps')return;places=(d.places||[]).filter(x=>Number.isFinite(Number(x.latitude))&&Number.isFinite(Number(x.longitude)));drawPlaces();
+  if(places.length)focus(places[0],0);else{viewport.innerHTML='<div class="map-placeholder">No city match. Use the map links above for an address, business or landmark.</div>';list.innerHTML=emptyState('No city matches','Try a city name, such as Imphal or Tokyo.');}
+  $('#statsLine').textContent=places.length+' city matches · Open-Meteo / GeoNames';
+ }catch{if(tk!==runToken||currentTab!=='maps')return;viewport.innerHTML='<div class="map-placeholder">City lookup is unavailable. Open your search using a map provider above.</div>';$('#statsLine').textContent='Map lookup unavailable · external map search still available';}
+}
+async function renderApps(q,tk){
+ const slot=$('#resultsSlot');slot.innerHTML=`<div class="feature-heading"><div><div class="destination-label">FIND YOUR NEXT EVERYDAY TOOL</div><h2>Discover apps</h2><p>Live iPhone/iPad listings from Apple’s India catalog. Search Android and open-source apps using the store links.</p></div></div>${appStoreLinks(q)}<div id="appGrid" class="app-grid">${skelResults()}</div><p class="map-attribution">Only official-store links are shown. Publisher names, availability and prices come from the store and can change. QUASAR does not host APKs or install apps.</p>`;
+ try{
+ const d=await discoveryAPI('apps',q);if(tk!==runToken||currentTab!=='apps')return;
+ const apps=(d.apps||[]).filter(x=>{try{return ['apps.apple.com','itunes.apple.com'].includes(new URL(x.url).hostname)&&safeURL(x.url);}catch{return false;}});
+ $('#appGrid').innerHTML=apps.length?apps.map(x=>`<article class="app-card"><div class="app-card-top">${safeURL(x.icon)?`<img loading="lazy" src="${esc(safeURL(x.icon))}" alt="" onerror="this.style.display='none'">`:'<span class="app-icon-fallback">◇</span>'}<div><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.name)}</a><small>${esc(x.publisher)}</small></div></div><div class="app-metadata"><span>${Number(x.rating)>0?'★ '+Number(x.rating).toFixed(1):'Not rated'}</span><span>${esc(x.price||'See store')}</span><span>${esc(x.genre||'App')}</span></div><p>${esc(x.description)}</p><div class="place-actions"><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">View on App Store ↗</a>${saveButton(x.name,x.url)}</div></article>`).join(''):emptyState('No matching listings','Try another name or search Google Play / F-Droid above.');
+ $('#statsLine').textContent=apps.length+' App Store listings · India catalog';
+ }catch{if(tk!==runToken||currentTab!=='apps')return;$('#appGrid').innerHTML=emptyState('App catalog unavailable','The official store search links above still work.');$('#statsLine').textContent='Catalog unavailable · external store search available';}
+}
+document.addEventListener('click',e=>{
+ const save=e.target.closest('[data-save-url]');if(save){Bookmarks.toggle(save.dataset.saveTitle,save.dataset.saveUrl);document.querySelectorAll('[data-save-url]').forEach(b=>{b.textContent=isSaved(b.dataset.saveUrl)?'★ Saved':'☆ Save';});if(currentTab==='saved'&&$('#resultsView').style.display!=='none')renderSaved();}
+ const app=e.target.closest('[data-find-app]');if(app)modeSearch('apps',app.dataset.findApp);
+ const mode=e.target.closest('[data-mode]');if(mode){const tab=mode.dataset.mode;setActiveTab(tab);if(tab==='saved')navigate('Saved');else{homeInput.placeholder=tab==='maps'?'Search a city or postal code…':tab==='apps'?'Search for an app…':'Find a website or ask anything…';homeInput.focus();toast('Next search: '+tab);}}
 });
 
 /* ---------- Nova: local, pointer-aware companion ---------- */
@@ -1283,5 +1457,5 @@ addEventListener('keydown', e => {
 applyAccent(Store.cfg.accentA, Store.cfg.accentB);
 route();
 </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a539ba6d6f796ee8',t:'MTc5MzUyMzgyNg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a539ba6d6f796ee8',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a53a10f9afa24e7b',t:'MTc5MzUyNzM3MQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a53a10f9afa24e7b',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
